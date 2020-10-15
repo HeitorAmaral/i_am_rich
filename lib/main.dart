@@ -17,8 +17,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://cdn.jpegmini.com/user/images/slider_puffin_before_mobile.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
